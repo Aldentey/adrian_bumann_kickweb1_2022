@@ -5,7 +5,7 @@
 .title-word {
     animation: color-animation 4s linear infinite;
   }
-  
+  test
   .title-word-1 {
     --color-1: #DF8453;
     --color-2: #3D8DAE;
