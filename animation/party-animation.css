@@ -48,7 +48,7 @@
   
   /* Here are just some visual styles. 🖌 */
   
-  .container {
+  .container-party {
     display: grid;
     place-items: center;  
     text-align: center;

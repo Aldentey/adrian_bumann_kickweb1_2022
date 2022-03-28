@@ -1,12 +1,12 @@
 @font-face { font-family: Calfine; src: url('../Calfinedemo.otf'); } 
 @font-face { font-family: Nighty; src: url('../Nightydemo.otf'); } 
 @font-face { font-family: Newake; src: url('../Newake-Font-Demo.otf'); } 
-
+/* 
 body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-}
+} */
 
 .stage {
   height: 300px;
