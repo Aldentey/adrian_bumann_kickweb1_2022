@@ -26,10 +26,7 @@ body {
   text-shadow: -10px 10px 0px white;
   font-family: Nighty, sans-serif;
 }
-.content2 {
 
-
-}
 .yeahgoaway {
   display: flex;
   justify-content: center;
@@ -64,9 +61,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;l
-
+  margin-top: 20px;
 }
+
 .party,span{
   font-size: 600px;
   font-family: nighty, sans-serif;
@@ -300,7 +297,7 @@ body {
   }
 }
 
-
+/* 
 
 @keyframes animateShadow {
   0% {
@@ -338,4 +335,5 @@ div {
   animation-name: animateShadow;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-}
+} */
+
