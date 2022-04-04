@@ -15,149 +15,41 @@ body {
   margin: 0;
 }
 
-.link{
-  width: 100vw;
-  height: 33.333vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10vw;
-  background-color: #FFF59C;
-}
+.content1 {
 
-
-
-/* unvisited link */
-a:link {
-  color: black;
-  font-family: nighty, sans-serif;
-  text-decoration-line: none
-}
-
-/* visited link */
-a:visited {
-  color: #FFF59C;
-  text-decoration: line-through;
-}
-
-/* mouse over link */
-a:hover {
-  color: #eb9cff;
-  text-shadow: -0.5vw 0.5vw 0px black;
-}
-
-/* selected link */
-a:active {
-  color: #9cfcff;
-}
-
-
-.yeahWrapper {
-
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
+  color: #9DE1DD;
   justify-content: center;
   align-items: center;
   font-size: 300px;
   margin: 0;
 }
 
-
 .yeah{
+  text-shadow: -10px 10px 0px white;
   font-family: Nighty, sans-serif;
-  font-size: 20vw;
-  color: black;
-  -webkit-text-stroke: 2px #FFF59C;
+  font-size: 30vw;
 }
 
-
-.yeah2{
-  font-family: Nighty, sans-serif;
-  font-size: 20vw;
-  color: #FFF59C;
-  position: absolute;
-}
-
-
-.draw {
-  stroke-dasharray: 2338.5;
-  stroke-dashoffset: 2338.5;
-  animation: dash2 3s linear infinite;
-}
-@keyframes dash2 {
-  to { stroke-dashoffset: 0;}
-}
-
-/* <!-- .draw {
-  stroke-dasharray: 100;
-  animation: dashdraw 3s linear infinite;
-}
-@keyframes dashdraw {
-  to {stroke-dashoffset: 200}
-} --> */
-
-
-.choir{
+.choir-image,svg{
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  position: absolute;
-  width: 500px;
-  height: 300px;
-
+  margin-left: 12vw;
 }
-
-.note1, .note2, .note3, .note4, .note5{
-  position: absolute;
-}
-
-.note1{
-  left: 30vw;
-  top: 20vh;
-}
-.note2{
-  left: 70vw;
-  top: 40vh;
-}
-.note3{
-  left: 60vw;
-  top: 70vh;
-}
-.note4{
-  left: 20vw;
-  top: 80vh;
-}
-.note5{
-  left: 40vw;
-  top: 100vh;
-}
-
 
 .yeahgoaway {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 60px;
   font-family: Newake, sans-serif;
-  margin: 10% 10% 0 10% ;
-}
+  margin: -70% 10% 0 10% ;
 
-
-.go{
-  color: #E19DA9;
-  font-size: 50px;
-  font-family: Newake, sans-serif;
-  text-shadow: none;
 }
-.away{
-  color: #E19DA9;
-  font-size: 50px;
-  font-family: Newake, sans-serif;
-  text-shadow: none;
-}
-
 .goaway {
   display: flex;
   justify-content: center;
@@ -169,76 +61,36 @@ a:active {
 
 }
 
-.content21{
-  height: 100vh;
-  width: 100vw;
-}
-
-.wejustwanna, .wejustwantthe, .justforyou{
-  width: 100vw;
-  text-align: center;
-  position: absolute;
-  font-size: 5vw;
-  font-family: Newake, sans-serif;
-  margin-top: 200px;
-}
-
-.justforyou{
-  top: 30vw;
-}
-
-.partyWithoutLine{
-  font-size: 5vw;
-  font-family: Newake, sans-serif;
-  text-shadow: none;
-}
-
-.partyWithLine{
-  font-size: 5vw;
-  font-family: Newake, sans-serif;
-  text-shadow: none;
-  text-decoration: line-through;
-}
-
-.moneySvg{
+.wejustwanna {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 1vw;
-}
-
-.moneySvgSvg{
-  width: 600px;
-}
-
-.moneyPath{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}
-
-.party, .money {
-  width: 100vw;
-  text-align: center;
-  position: absolute;
+  align-items: center;
   font-size: 60px;
   font-family: Newake, sans-serif;
   margin-top: 200px;
+
+}
+
+.party {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 ;
 }
 
 .party,span{
   font-size: 36vw;
   font-family: nighty, sans-serif;
-  /* text-shadow: -10px 20px 0px black; */
+  text-shadow: -10px 20px 0px black;
 
 }
 
 .content3 {
-  margin-top: -500px;
-  width: 100vw;
+  margin: 600px 100px 0 100px ;
 }
 
 .iknow {
   font-family: Newake, sans-serif;
-  font-size: 5vw;
-  margin-left: 5vw;
-
 
 }
 
@@ -246,53 +98,47 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  width: 100vw;
-  font-size: 50vw;
+  font-size: 950px;
   font-family: Newake, sans-serif;
-  margin-top: 0;
+  margin-top: -60px;
 
 }
 .wannaparty {
-  /* position: absolute;
+  position: absolute;
   float: none;
   font-family: Newake, sans-serif;
   margin-top: -600px;
-  transform: rotate(-90deg); */
-  margin-left: 69vw;
-  font-size: 4vw;
-  transform: rotate(90deg) translateX(50%);
-  position: absolute;
+  margin-left: 1300px;
+  transform: rotate(-90deg);
+
 }
 
 .YEAH {
-  position: absolute;
-  width: 100vw;
-  font-size: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 950px;
   font-family: Newake, sans-serif;
-  margin-top: -10vw;
+  margin-top: -1200px;
   text-align: center;
   line-height: 0.8;
   color: #FFF59C;
 }
 .partyjustfor {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-  width: 100vw;
-  font-size: 5vw;
-  text-align: center;
+  align-items: center;
   font-family: Newake, sans-serif;
-  margin-top: 60vw;
+  margin-top: 0px;
 }
 
 .free {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20vw;
+  font-size: 150px;
   font-family: Newake, sans-serif;
-  margin-top: 10vw;
+  margin-top: 60px;
 }
 
 .girlyougotme{
@@ -361,33 +207,17 @@ a:active {
 
 
 .ohh {
-  margin-left: 40vw;
-  font-size: 30vw;
+  margin-left: 60%;
+  font-size: 150px;
   font-family: Newake, sans-serif;
-  /* margin-top: 600px; */
+  margin-top: 60px;
   
 }
 
 .content6{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 500px;
 }
 
-.gunSvg{
-  width: 1oovw;
-  height: 100vh;
-  position: absolute;
-  margin-top: 60vw;
-  left: 10vw;
-}
-
-.content7{
-  width: 100vw;
-  height: 100vh;
-}
 
 .thisis {
   display: flex;
@@ -401,7 +231,6 @@ a:active {
 .AMERICA {
   display: flex;
   justify-content: center;
-  color: rgb(134, 48, 48);
   /* align-items: center; */
   font-size: 50vw;
   font-family: Newake, sans-serif;
@@ -420,30 +249,27 @@ a:active {
 #scroll-container2 {
   /* border: 3px solid black; */
   height: 500px;
-  width:140px;
+  width:135px;
   /* overflow: hidden; */
   font-size: 60px;
   /* float: left; */
 }
 
-
-
 #scroll-text-down {
   height: 100%;
   text-align: center;
-  width: auto;
   
-  /* animation properties
+  /* animation properties */
   -moz-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   
   -moz-animation: my-animation 5s linear infinite;
   -webkit-animation: my-animation 5s linear infinite;
-  animation: animation-text-down 5s linear infinite; */
+  animation: animation-text-down 5s linear infinite;
 }
 
-/* @keyframes animation-text-down {
+@keyframes animation-text-down {
   from {
     -moz-transform: translateY(-300%);
     -webkit-transform: translateY(-300%);
@@ -454,24 +280,24 @@ a:active {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
-} */
+}
 
 
 #scroll-text-up {
   height: 100%;
   text-align: center;
   
-  /* animation properties
+  /* animation properties */
   -moz-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   
   -moz-animation: my-animation 5s linear infinite;
   -webkit-animation: my-animation 5s linear infinite;
-  animation: animation-text-up 5s linear infinite; */
+  animation: animation-text-up 5s linear infinite;
 }
 
-/* @keyframes animation-text-up {
+@keyframes animation-text-up {
   from {
     -moz-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
@@ -482,7 +308,7 @@ a:active {
     -webkit-transform: translateY(-300%);
     transform: translateY(-300%);
   }
-} */
+}
 
 
 
@@ -515,25 +341,12 @@ a:active {
   }
 }
 
-@media screen and (max-width: 960px) {
-  .waviy span {
-    font-size: 30px;
-    font-family: Newake, cursive;
-    position: relative;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    /* text-transform: uppercase; */
-    animation: waviy 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    
-  }
-}
 
-/* 
+
 
 /*  */
 /* YEAH ANIMATION */
-/* 
+
 
 .stage {
   height: 300px;
@@ -678,7 +491,7 @@ a:active {
   100% {
     transform: rotateY(-40deg) rotateX(-43deg);
   }
-} */ 
+}
 
 
 
