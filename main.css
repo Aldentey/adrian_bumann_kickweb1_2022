@@ -36,7 +36,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #FFF59C;
+  color: black;
   text-decoration: line-through;
 }
 
