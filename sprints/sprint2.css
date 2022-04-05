@@ -1,6 +1,6 @@
-@font-face { font-family: Calfine; src: url('fonts/Calfinedemo.otf'); } 
-@font-face { font-family: Nighty; src: url('fonts/Nightydemo.otf'); } 
-@font-face { font-family: Newake; src: url('fonts/Newake-Font-Demo.otf'); } 
+@font-face { font-family: Calfine; src: url('../fonts/Calfinedemo.otf'); } 
+@font-face { font-family: Nighty; src: url('../fonts/Nightydemo.otf'); } 
+@font-face { font-family: Newake; src: url('../fonts/Newake-Font-Demo.otf'); } 
 * {
   box-sizing: border-box;
   font-family: Newake, sans-serif;
