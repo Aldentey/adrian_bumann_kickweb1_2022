@@ -104,7 +104,7 @@ const tlwe = gsap.timeline({
         trigger: ".content21",
         start: "center 50%",
         end: "bottom 0%",
-        markers:true,
+        //markers:true,
         pin:true,
         scrub: 1
     }
